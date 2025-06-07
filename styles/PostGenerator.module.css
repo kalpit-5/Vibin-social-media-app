@@ -1,0 +1,33 @@
+.postGenWrapper {
+  border-radius: 1rem;
+}
+.container {
+  border-radius: 1rem;
+  padding: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.previewContainer{
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.remove{
+  z-index: 2;
+  right: 1rem;
+  top: 1rem;
+  background: #000;
+}
+
+.preview{
+  width: 100%;
+  border-radius: .5rem;
+  object-fit: cover;
+}
+
+.bottom{
+  width: 100%;
+}
